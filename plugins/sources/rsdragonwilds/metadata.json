@@ -1,0 +1,12 @@
+{
+  "Id": "rsdragonwilds",
+  "Name": "RuneScape: Dragonwilds",
+  "Version": "1.0.0",
+  "MinimumNexusVersion": "1.0.9",
+  "EntryPoint": "RSDragonwilds",
+  "Description": "Adiciona instalação, atualização e gerenciamento do servidor dedicado de RuneScape: Dragonwilds pelo SteamCMD.",
+  "Notes": "Após instalar o servidor, preencha OwnerId, ServerName, DefaultWorldName e AdminPassword em RSDragonwilds/Saved/Config/WindowsServer/DedicatedServer.ini. O OwnerId está nas configurações do jogo. Este plugin não oferece consulta da lista de jogadores. Compilação e carregamento verificados; instalação e execução do servidor de jogo ainda não testadas.",
+  "Author": "darkharasho",
+  "Source": "https://github.com/darkharasho/WindowsGSM.RunescapeDragonwilds",
+  "License": "MIT"
+}
