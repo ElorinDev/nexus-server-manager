@@ -40,8 +40,9 @@ $utf8 = New-Object Text.UTF8Encoding($false)
 Write-Output "Manifesto pronto: $manifestPath ($($entries.Count) arquivos; $($assets.Count) downloads unicos)"
 if (-not $Publish) { return }
 if (-not (Get-Command gh -ErrorAction SilentlyContinue)) { throw 'Instale o GitHub CLI e autentique com gh auth login.' }
-$existing = & gh release view $tag --repo $Repository --json tagName 2>$null
-if ($LASTEXITCODE -eq 0) { throw "A versao $tag ja existe. Publique com um novo numero de versao." }
+$existingTags = & gh release list --repo $Repository --limit 100 --json tagName --jq '.[].tagName'
+if ($LASTEXITCODE -ne 0) { throw 'Falha ao consultar as versoes publicadas.' }
+if ($existingTags -contains $tag) { throw "A versao $tag ja existe. Publique com um novo numero de versao." }
 & gh release create $tag --repo $Repository --draft --title "Nexus Server Manager $($version.ToString(3))" --notes-file ([IO.Path]::GetFullPath($ReleaseNotesFile))
 if ($LASTEXITCODE -ne 0) { throw 'Falha ao criar a versao em rascunho.' }
 $upload = @($assets.Values) + @($manifestPath) + @($AdditionalAssets | ForEach-Object { [IO.Path]::GetFullPath($_) })
