@@ -1,4 +1,4 @@
-# Atualizações do Nexus
+﻿# Atualizações do Nexus
 
 No aplicativo, abra **Ajuda > Atualizações do Nexus > Verificar agora**.
 O repositório padrão é `fabriciodba/nexus-server-manager`, público no GitHub.
@@ -71,3 +71,13 @@ de dados, corrupção, interrupção, cancelamento, destino bloqueado e rollback
 uma pasta de teste nova. Para esse teste sem UAC, forneça uma compilação de
 teste com manifesto `asInvoker`; a distribuição normal mantém o manifesto de
 administrador.
+
+## Pacote enxuto a partir da versao 1.0.5
+
+Depois de `Compilar.cmd`, execute `Empacotar.cmd`. O pacote em `distribuicao`
+contem apenas o executavel, sua configuracao, o guia e as licencas.
+As bibliotecas de compatibilidade ficam embutidas. MahApps, Roslyn e Newtonsoft
+sao extraidos na primeira abertura; SteamCMD e baixado ao instalar um jogo
+que o utiliza. Nao inclua as pastas criadas durante o uso no pacote de publicacao.
+A pasta limpa gerada por Empacotar.cmd pode ser usada no parametro
+`-ProgramDirectory` do script Publicar-Atualizacao.ps1.
