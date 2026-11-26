@@ -18,7 +18,10 @@ if (Test-Path -LiteralPath $OutputDirectory) { throw 'Use uma pasta de saida nov
 New-Item -ItemType Directory -Path $OutputDirectory | Out-Null
 $rootNames = @('NexusServerManager.exe','NexusServerManager.exe.config','MahApps.Metro.dll','Nexus.ico','LICENSE-WindowsGSM.txt','LEIA-ME.txt','AVISOS.txt')
 $files = @($rootNames | ForEach-Object { $path = Join-Path $ProgramDirectory $_; if (Test-Path -LiteralPath $path -PathType Leaf) { Get-Item -LiteralPath $path } })
-$files += @(Get-ChildItem -LiteralPath (Join-Path $ProgramDirectory 'bin') -File -Recurse | Where-Object { $_.Extension -in @('.dll','.exe','.config','.json','.pdb','.rsp') })
+$binDirectory = Join-Path $ProgramDirectory 'bin'
+if (Test-Path -LiteralPath $binDirectory -PathType Container) {
+    $files += @(Get-ChildItem -LiteralPath $binDirectory -File -Recurse | Where-Object { $_.Extension -in @('.dll','.exe','.config','.json','.pdb','.rsp') })
+}
 $entries = @()
 $assets = @{}
 foreach ($file in $files) {
