@@ -5,7 +5,7 @@ catálogo de instalação, console, plugins e atualizações pelo aplicativo.
 
 ## Instalar
 
-Baixe o pacote **Nexus-Server-Manager-1.0.4.zip** na
+Baixe o pacote **Nexus-Server-Manager-1.0.5.zip** na
 [versão mais recente](https://github.com/fabriciodba/nexus-server-manager/releases/latest),
 extraia a pasta completa e execute `NexusServerManager.exe`.
 Requer Windows de 64 bits e .NET Framework 4.7.2 ou superior.
@@ -20,7 +20,7 @@ dos jogos são preservados. A verificação ao abrir pode ser desativada na mesm
 
 ## Código-fonte e publicação
 
-O ZIP **Nexus-Server-Manager-Fonte-1.0.4.zip** nas releases contém o projeto completo,
+O ZIP **Nexus-Server-Manager-Fonte-1.0.5.zip** nas releases contém o projeto completo,
 dependências, compilador e testes. Extraia e execute `Compilar.cmd`.
 
 Consulte [ATUALIZACOES.md](ATUALIZACOES.md) para recuperação, testes e publicação.
@@ -34,3 +34,12 @@ O manifesto utilizado pelo programa fica em
 
 Adaptação do WindowsGSM v1.23.1, de TatLead e colaboradores, sob licença MIT.
 Consulte [LICENSE](LICENSE). Os avisos das dependências acompanham os pacotes.
+
+## Distribuição enxuta
+
+A versão 1.0.5 tem um pacote de aproximadamente 11,5 MB com cinco arquivos.
+As bibliotecas de compatibilidade ficam embutidas no executável; componentes
+de uso são extraídos na primeira abertura. SteamCMD é baixado quando necessário.
+
+Após compilar, execute `Empacotar.cmd` para gerar o ZIP limpo em `distribuicao`.
+Use essa pasta limpa no script de publicação.
