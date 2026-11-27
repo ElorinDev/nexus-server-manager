@@ -1,17 +1,17 @@
 {
     "schemaVersion":  2,
     "product":  "Nexus Server Manager",
-    "version":  "1.0.15.0",
-    "notes":  "Menu do botao direito e nova organizacao dos cards.\n\n- Clique com o botao direito na linha do servidor para Editar configuracoes ou Excluir servidor.\n- A acao usa a linha clicada, mesmo quando outro servidor estava selecionado.\n- A exclusao pede confirmacao com nome e ID, usa Nao como opcao padrao e exige que o servidor esteja parado.\n- Ajustes do servidor movidos para Visao geral, com seletor de servidor.\n- Inicio agora possui o card Inicializacao e atualizacoes com inicio automatico, recuperacao, atualizacoes e backup ao iniciar.\n- Automacao ficou com reinicio agendado e alertas; as opcoes movidas nao ficam duplicadas.\n\nValidacao: compilacao de Release, 30 verificacoes do atualizador, 28 do catalogo e conferencia no aplicativo usando dois servidores ficticios. Edicao da linha clicada, confirmacao/cancelamento da exclusao, selecao em Visao geral e gravacao no card inicial conferidos. Nenhum servidor real foi excluido, instalado ou iniciado.\n\nAtualize em Ajuda \u003e Atualizacoes do Nexus. Instalacoes 1.0.10 ou anteriores precisam receber o ZIP atual uma vez, preservando as pastas de dados.\n",
+    "version":  "1.0.16.0",
+    "notes":  "Card Inicializacao e atualizacoes sem barra de rolagem.\n\n- Espacamentos e margens ajustados para manter as cinco opcoes visiveis.\n- O card nao depende mais de uma area de rolagem.\n- Inicio automatico, recuperacao, atualizacoes e backup ao iniciar preservados.\n\nValidacao: compilacao de Release e conferencia no programa em 1320x900 e 1180x820, com todas as opcoes visiveis sem cortes. A opcao Backup ao iniciar foi acionada no tamanho minimo e sua gravacao conferida em uma instancia ficticia.\n\nAtualize em Ajuda \u003e Atualizacoes do Nexus.\n",
     "package":  {
-                    "url":  "https://github.com/ElorinDev/nexus-server-manager/releases/download/v1.0.15/Nexus-Server-Manager-1.0.15.zip",
-                    "sha256":  "6004eed65ca8458d5a1559950d89caf4835231133a0a9596fa5f3a7e57d5ca06",
-                    "size":  11515206
+                    "url":  "https://github.com/ElorinDev/nexus-server-manager/releases/download/v1.0.16/Nexus-Server-Manager-1.0.16.zip",
+                    "sha256":  "f27fc77cb659bb70e26beabe3a65429e3fb8b94b33ac188e523fcb989e47f367",
+                    "size":  11515253
                 },
     "files":  [
                   {
                       "path":  "NexusServerManager.exe",
-                      "sha256":  "54e388f0e4b1d43bc6733bcff90d476024246d15fad91358a813a7b77276d5dd",
+                      "sha256":  "f7ad939adfdcdff5bcf9691fbf54b42b0fd1462fe984a610379f44af762b55ac",
                       "size":  19120128
                   },
                   {
@@ -31,8 +31,8 @@
                   },
                   {
                       "path":  "LEIA-ME.txt",
-                      "sha256":  "dc406e7e18ab30c98173283912b58a0dd8dcd7c1205b684e82eb56586a58ff7e",
-                      "size":  1929
+                      "sha256":  "4418369c7733176d6fe3b6cb740557d551980aa2d8fdfa9136e89f5613c78dc5",
+                      "size":  1994
                   }
               ]
 }
