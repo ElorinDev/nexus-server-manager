@@ -2,7 +2,7 @@
 
 Gerenciador de servidores de jogos para Windows.
 
-**[Baixar o software para Windows](https://github.com/fabriciodba/nexus-server-manager/releases/latest)**
+**[Baixar o software para Windows](https://github.com/ElorinDev/nexus-server-manager/releases/latest)**
 
 Na página da versão, baixe o único ZIP do programa. Extraia a pasta e execute `NexusServerManager.exe`.
 
@@ -22,3 +22,5 @@ A tela de atualização do Nexus também consulta novidades dos plugins instalad
 
 [Catálogo, downloads e instruções de publicação](plugins/README.md). Cada plugin inclui sua própria licença e notas de validação.
 
+
+A versão **1.0.10** migra automaticamente os endereços da conta anterior. A fonte de atualização é administrada pelo aplicativo e não aparece na janela de atualização.
