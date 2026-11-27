@@ -16,7 +16,9 @@ As próximas versões podem ser instaladas em **Ajuda → Atualizações do Nexu
 
 ## Interface e navegação
 
-Na versão **1.0.14**, a tela **Início** reúne a biblioteca, o console, os eventos e os ajustes do servidor selecionado. O menu **Automação**, à esquerda, permite escolher um servidor e configurar suas rotinas de início, recuperação, atualizações, backups, agenda e alertas.
+Na versão **1.0.15**, a tela **Início** reúne a biblioteca, o console, os eventos e o card **Inicialização e atualizações**. Os **Ajustes do servidor** ficam em **Visão geral**, com um seletor de servidor. **Automação** reúne o reinício agendado e os alertas.
+
+Clique com o **botão direito na linha do servidor** para **Editar configurações** ou **Excluir servidor**. A exclusão pede confirmação com nome e ID e exige que o servidor esteja parado.
 
 Use o único botão **Novo servidor** para instalar um jogo. Para aproveitar arquivos existentes, escolha **Importar existente** dentro dessa tela. O card de sugestão e os atalhos repetidos de criação foram removidos.
 
