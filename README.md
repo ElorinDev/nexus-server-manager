@@ -14,6 +14,12 @@ As próximas versões podem ser instaladas em **Ajuda → Atualizações do Nexu
 
 [Licença do Nexus](LICENSE). Os avisos dos componentes incorporados acompanham o software em `AVISOS.txt`.
 
+## Interface e navegação
+
+Na versão **1.0.14**, a tela **Início** reúne a biblioteca, o console, os eventos e os ajustes do servidor selecionado. O menu **Automação**, à esquerda, permite escolher um servidor e configurar suas rotinas de início, recuperação, atualizações, backups, agenda e alertas.
+
+Use o único botão **Novo servidor** para instalar um jogo. Para aproveitar arquivos existentes, escolha **Importar existente** dentro dessa tela. O card de sugestão e os atalhos repetidos de criação foram removidos.
+
 ## Catálogo de jogos
 
 Abra **Plugins → Baixar plugins** para instalar e atualizar os plugins disponíveis no Nexus **1.0.13 ou superior**. O catálogo existe desde a versão 1.0.9. Começamos por **RuneScape: Dragonwilds**. Depois de instalar o plugin, use **Novo servidor** para baixar o servidor do jogo.
