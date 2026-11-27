@@ -1,18 +1,18 @@
 {
     "schemaVersion":  2,
     "product":  "Nexus Server Manager",
-    "version":  "1.0.12.0",
-    "notes":  "Novos plugins agora podem usar Nexus.Plugins.MeuJogo.\n\n- SDK Nexus com Plugin, ServerConfig, ServerPath, ServerConsole e SteamCmdAgent.\n- O carregador prioriza Nexus.Plugins e preserva os plugins antigos, sem exigir alteracoes.\n- Modelo original atualizado para gerar plugins com os nomes Nexus; requer versao 1.0.12 ou superior.\n- Validacao: 14 verificacoes do SDK pelo carregador real, 30 do atualizador e 28 do catalogo.\n\nAtualize em Ajuda \u003e Atualizacoes do Nexus. Se usa a versao 1.0.10 ou anterior, instale este ZIP uma vez: pare os servidores, feche o programa e substitua somente os cinco arquivos do pacote. Preserve servers, configs, plugins, backups, logs e as pastas .nexus-*.\n\nO download publico oferece somente o ZIP do software. O codigo-fonte e os registros permanecem no repositorio tecnico privado. Instalacao e inicializacao reais de servidores de jogo nao fazem parte desta validacao.\n",
+    "version":  "1.0.13.0",
+    "notes":  "Downloads de plugins agora ficam em Plugins \u003e Baixar plugins.\n\n- Botao Baixar plugins em destaque na area de Plugins.\n- Instalacao, consulta de novidades e atualizacao de plugins no catalogo dessa area.\n- Removido o acesso ao catalogo da janela Atualizacoes do Nexus.\n- A consulta automatica do Nexus verifica somente a versao do programa e nao altera os avisos de Ajuda com novidades de plugins.\n- Importar plugin e Recarregar continuam disponiveis na area de Plugins.\n\nValidacao: compilacao de Release, 30 verificacoes do atualizador e 28 do catalogo aprovadas. A verificacao visual interativa ficou limitada por uma falha na ativacao da janela de teste.\n\nAtualize em Ajuda \u003e Atualizacoes do Nexus. Se usa a versao 1.0.10 ou anterior, instale este ZIP uma vez, preservando as pastas dos servidores, configuracoes, plugins, backups e logs.\n",
     "package":  {
-                    "url":  "https://github.com/ElorinDev/nexus-server-manager/releases/download/v1.0.12/Nexus-Server-Manager-1.0.12.zip",
-                    "sha256":  "829bffd181f8bc9f4c64727ac2bd0054d55bd83251bf64033b58eca4fe63ef40",
-                    "size":  11513955
+                    "url":  "https://github.com/ElorinDev/nexus-server-manager/releases/download/v1.0.13/Nexus-Server-Manager-1.0.13.zip",
+                    "sha256":  "2f4280129d97133f41f6326cb61cba63e30a0cee3309148d723295adbbc44e64",
+                    "size":  11512953
                 },
     "files":  [
                   {
                       "path":  "NexusServerManager.exe",
-                      "sha256":  "a9b1113a6d5d9b3a7eba63a1dddc446a762db31fdd1ea2d8ef41eb006b0df674",
-                      "size":  19116032
+                      "sha256":  "1b986ba8684bb7a323169ca5b7542cd75b9a6d389515c9b4df9fe7dc78070094",
+                      "size":  19113472
                   },
                   {
                       "path":  "NexusServerManager.exe.config",
@@ -31,8 +31,8 @@
                   },
                   {
                       "path":  "LEIA-ME.txt",
-                      "sha256":  "b5d68dc81d268fd490ebee60c7fac38927f52f5c0c1b2804fe856c83f2eead06",
-                      "size":  1565
+                      "sha256":  "1f1badcf156dcecb9afc0976cf081335aa582e968c3937deb823e49085200ee9",
+                      "size":  1544
                   }
               ]
 }
