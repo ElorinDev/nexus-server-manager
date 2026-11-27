@@ -8,6 +8,8 @@ No aplicativo, abra **Plugins → Catálogo de jogos**, selecione o jogo e cliqu
 
 ## Publicar um jogo ou uma atualização
 
+Para plugins novos no Nexus **1.0.12 ou superior**, use `namespace Nexus.Plugins`, `using Nexus;` e `using Nexus.Engine;`. Por exemplo, a classe pública `MeuJogo` no arquivo `MeuJogo.cs` será `Nexus.Plugins.MeuJogo`. O construtor recebe `Nexus.ServerConfig` e deve aceitar `null` durante a leitura dos metadados. Defina `MinimumNexusVersion` como `1.0.12` ou superior. Plugins existentes no formato antigo continuam compatíveis; não é necessário republicá-los apenas por essa mudança.
+
 1. Crie `plugins/sources/<id>/` com `metadata.json`, o arquivo `<EntryPoint>.cs` e `LICENSE.txt`. Use `rsdragonwilds` como exemplo.
 2. Informe nome, versão, versão mínima do Nexus, descrição, instruções, autor, origem e licença em `metadata.json`.
 3. Compile e confira o carregamento do plugin no Nexus. Registre nas notas o que foi validado.
