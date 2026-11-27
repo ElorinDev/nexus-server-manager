@@ -2,9 +2,9 @@
 
 Catálogo de jogos do Nexus Server Manager, disponível a partir da versão **1.0.9**.
 
-No aplicativo, abra **Plugins → Catálogo de jogos**, selecione o jogo e clique em **Instalar plugin**. Depois abra **Novo servidor** para baixar os arquivos do servidor de jogo.
+No aplicativo, abra **Plugins → Baixar plugins**, selecione o jogo e clique em **Instalar plugin**. Depois abra **Novo servidor** para baixar os arquivos do servidor de jogo.
 
-**Ajuda → Atualizações do Nexus** também consulta o catálogo e informa as novas versões dos plugins instalados por ele. As versões dos plugins são independentes da versão do Nexus: um novo jogo pode ser publicado aqui sem recompilar o programa. O download é feito somente para o plugin selecionado.
+Use **Verificar novidades** na tela **Baixar plugins** para consultar novas versões dos plugins instalados pelo catálogo. A partir do Nexus **1.0.13**, essa consulta fica na área de Plugins; **Ajuda → Atualizações do Nexus** cuida da versão do programa. As versões dos plugins são independentes da versão do Nexus: um novo jogo pode ser publicado aqui sem recompilar o programa. O download é feito somente para o plugin selecionado.
 
 ## Publicar um jogo ou uma atualização
 
