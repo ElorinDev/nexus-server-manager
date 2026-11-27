@@ -16,9 +16,9 @@ As próximas versões podem ser instaladas em **Ajuda → Atualizações do Nexu
 
 ## Catálogo de jogos
 
-A partir do Nexus **1.0.9**, abra **Plugins → Catálogo de jogos** para instalar e atualizar os plugins disponíveis. Começamos por **RuneScape: Dragonwilds**. Depois de instalar o plugin, use **Novo servidor** para baixar o servidor do jogo.
+Abra **Plugins → Baixar plugins** para instalar e atualizar os plugins disponíveis no Nexus **1.0.13 ou superior**. O catálogo existe desde a versão 1.0.9. Começamos por **RuneScape: Dragonwilds**. Depois de instalar o plugin, use **Novo servidor** para baixar o servidor do jogo.
 
-A tela de atualização do Nexus também consulta novidades dos plugins instalados pelo catálogo. Os plugins têm versões próprias: novos jogos e correções podem ser publicados sem recompilar o aplicativo.
+Na tela **Baixar plugins**, use **Verificar novidades** para consultar atualizações dos plugins instalados pelo catálogo. Os plugins têm versões próprias: novos jogos e correções podem ser publicados sem recompilar o aplicativo.
 
 Novos plugins podem usar `Nexus.Plugins` e o SDK Nexus a partir da versão **1.0.12**. Os plugins existentes continuam compatíveis.
 
