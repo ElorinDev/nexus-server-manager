@@ -1,18 +1,18 @@
 {
     "schemaVersion":  2,
     "product":  "Nexus Server Manager",
-    "version":  "1.0.13.0",
-    "notes":  "Downloads de plugins agora ficam em Plugins \u003e Baixar plugins.\n\n- Botao Baixar plugins em destaque na area de Plugins.\n- Instalacao, consulta de novidades e atualizacao de plugins no catalogo dessa area.\n- Removido o acesso ao catalogo da janela Atualizacoes do Nexus.\n- A consulta automatica do Nexus verifica somente a versao do programa e nao altera os avisos de Ajuda com novidades de plugins.\n- Importar plugin e Recarregar continuam disponiveis na area de Plugins.\n\nValidacao: compilacao de Release, 30 verificacoes do atualizador e 28 do catalogo aprovadas. A verificacao visual interativa ficou limitada por uma falha na ativacao da janela de teste.\n\nAtualize em Ajuda \u003e Atualizacoes do Nexus. Se usa a versao 1.0.10 ou anterior, instale este ZIP uma vez, preservando as pastas dos servidores, configuracoes, plugins, backups e logs.\n",
+    "version":  "1.0.14.0",
+    "notes":  "Nova organizacao da interface do Nexus.\n\n- Inicio com biblioteca, console, eventos e ajustes do servidor selecionado.\n- Automacao no menu esquerdo, com seletor de servidor e secoes de inicializacao, recuperacao, atualizacoes, backups, agenda e alertas.\n- Uma unica entrada Novo servidor, com Importar existente dentro dela.\n- Formulario de importacao redesenhado.\n- Removidos o card Pronto para jogar e os atalhos repetidos de criacao e importacao.\n- Campos de ajustes e automacao desabilitados quando nenhum servidor esta selecionado.\n\nValidacao: compilacao de Release; 30 verificacoes do atualizador e 28 do catalogo; navegacao e formularios conferidos no programa com instancias ficticias; gravacao de automacao validada no servidor selecionado. A tela inicial foi conferida em 1320x900 e 1180x820. Nao foram instalados nem iniciados servidores reais de jogos.\n\nAtualize em Ajuda \u003e Atualizacoes do Nexus. Se usa a versao 1.0.10 ou anterior, instale este ZIP uma vez, preservando as pastas dos servidores, configuracoes, plugins, backups e logs.\n",
     "package":  {
-                    "url":  "https://github.com/ElorinDev/nexus-server-manager/releases/download/v1.0.13/Nexus-Server-Manager-1.0.13.zip",
-                    "sha256":  "2f4280129d97133f41f6326cb61cba63e30a0cee3309148d723295adbbc44e64",
-                    "size":  11512953
+                    "url":  "https://github.com/ElorinDev/nexus-server-manager/releases/download/v1.0.14/Nexus-Server-Manager-1.0.14.zip",
+                    "sha256":  "8e93bf8c5a9949a018bd9eaf6854ea600148e51f83db425e49e118c233ddd300",
+                    "size":  11514303
                 },
     "files":  [
                   {
                       "path":  "NexusServerManager.exe",
-                      "sha256":  "1b986ba8684bb7a323169ca5b7542cd75b9a6d389515c9b4df9fe7dc78070094",
-                      "size":  19113472
+                      "sha256":  "a703cf3ad30614155ce958750619664568b5bf8fc4392737b76cad3de46b48e0",
+                      "size":  19117056
                   },
                   {
                       "path":  "NexusServerManager.exe.config",
@@ -31,8 +31,8 @@
                   },
                   {
                       "path":  "LEIA-ME.txt",
-                      "sha256":  "1f1badcf156dcecb9afc0976cf081335aa582e968c3937deb823e49085200ee9",
-                      "size":  1544
+                      "sha256":  "9d69e63189ba91c76f7cf75db88efe8df2fb9411f187e4ec0ecddd3ff7464291",
+                      "size":  1783
                   }
               ]
 }
