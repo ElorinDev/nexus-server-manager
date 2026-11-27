@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "product": "Nexus Server Manager",
+  "version": "1.0.11.0",
+  "notes": "Nexus Server Manager 1.0.11\n\n- Repositorio tecnico e codigo-fonte passam a ser privados.\n- Atualizacoes do software continuam publicas, sem login no GitHub.\n- O Nexus consulta um feed publico e baixa o unico ZIP do software.\n- ZIP e arquivos internos sao validados por SHA-256 antes da instalacao.\n- Dados, preferencias, backups e restauracao da versao anterior preservados.\n\nMigracao: instale este ZIP uma vez se utiliza a 1.0.10 ou anterior, pois o antigo canal tecnico agora e privado. Pare os servidores, feche o Nexus e copie os cinco arquivos preservando as pastas de dados. Depois, use Ajuda > Atualizacoes do Nexus normalmente.\r\n",
+  "package": {
+    "url": "https://github.com/ElorinDev/nexus-server-manager/releases/download/v1.0.11/Nexus-Server-Manager-1.0.11.zip",
+    "sha256": "2f8744ad169d4947f08d2e4d0a89aaffcc93509672a15b7708a031b9ac0ea84c",
+    "size": 11582255
+  },
+  "files": [
+    {
+      "path": "NexusServerManager.exe",
+      "sha256": "0c4d02a5e7e9f966476b05ae455b982bcca7abbec30a859c30bd0e956641fedd",
+      "size": 19111424
+    },
+    {
+      "path": "NexusServerManager.exe.config",
+      "sha256": "cdf7fb2635f9a2021f6dc96c85b9321e8fa2573e6d66cc58dc2f9ff33a364fb8",
+      "size": 3308
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "3cfa66d2f80aafd6366a0f7f44356c2b8beba504f4f530b2272f70f12ff988a1",
+      "size": 1330
+    },
+    {
+      "path": "AVISOS.txt",
+      "sha256": "7465c9345e9bc58bc3a76f0e797275d08eeda59d750e6be512e431350d3bb85d",
+      "size": 1145
+    },
+    {
+      "path": "LEIA-ME.txt",
+      "sha256": "ded3e188af5c7c95db5896796dfdafc3e82e0f8d4e7c2791ded46c0a1dbc4118",
+      "size": 1565
+    }
+  ]
+}
